@@ -3,6 +3,12 @@
   padding: 0%;
   box-sizing: border-box;
 }
+
+html {
+  width: 100vw;
+  overflow: hidden;
+}
+
 body {
   background-color: #191931;
   color: #e1e1f1;
@@ -99,7 +105,7 @@ ul.links li:not(:last-child) {
   font-size: 0.75rem;
 }
 
-.copyright img{
+.copyright img {
   width: 6rem;
   opacity: 0.5;
 }
