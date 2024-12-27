@@ -28,12 +28,12 @@ a {
   color: inherit;
 }
 
-.link i {
+.sosmed i {
   font-size: 1.5rem;
   color: #8787a3;
 }
 
-.link a:not(:last-child) {
+.sosmed a:not(:last-child) {
   margin-right: 1rem;
 }
 
