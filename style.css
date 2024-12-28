@@ -21,6 +21,19 @@ body {
   gap: 1rem;
 }
 
+.bg-text-animation {
+  position: absolute;
+  top: 8rem;
+  font-size: 12rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  -webkit-text-stroke: 2px #2d2d56;
+  -webkit-text-fill-color: transparent;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  z-index: -1;
+  user-select: none;
+}
+
 .my-photo {
   width: 10rem;
   border-radius: 50%;
@@ -37,6 +50,10 @@ a {
 .sosmed i {
   font-size: 1.5rem;
   color: #8787a3;
+}
+
+.sosmed i:hover {
+  color: white;
 }
 
 .sosmed a:not(:last-child) {
@@ -93,6 +110,7 @@ ul.links li:not(:last-child) {
 .link-action {
   color: #8787a3;
   cursor: pointer;
+  padding: 10px;
 }
 
 .copyright {
